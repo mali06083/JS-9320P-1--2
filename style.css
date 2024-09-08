@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+video {
+position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+.container {
+    position: relative;
+    z-index: 1;
+
+}
+.hidden {
+    display: none;
+}
+.card-img-top {
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height:200px; 
+    object-fit: cover; 
+}
+.cnr-one{
+    text-align: center;
+    justify-content: center;
+}
+.btn-danger {
+    border-color: white !important;
+    background: rgb(237, 8, 8) !important;
+}
+#toggleButton{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 55px;
+}
+.radio-container {
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+     display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.radio-container label{
+    margin-right: 35px;
+}
+#filterContainer {
+justify-content: center;
+text-align: center;
+margin: 79px;
+
+
+
+color: white
+}
+.card {
+    box-shadow:0 0 45px red;
+}
+
+
+button:active {
+    transform: translateY(0); /* Tıklandığında geriye döndürme */
+}
+
+button {
+    background: linear-gradient(90deg, #0d021f, #2980b9); /* Gradient arka plan */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; /* Geçiş efektleri */
+}
+
+button:hover {
+    background: linear-gradient(90deg, #2980b9, #6bb9e8); /* Hover geçişi */
+    transform: scale(1.05); /* Hover'da büyütme efekti */
+}
+
+
+.form-check-inline :hover {
+     
+        transform: scale(1.1);
+
+}
